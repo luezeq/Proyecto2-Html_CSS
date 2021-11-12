@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Your Store</title>
+        
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="preload" href="" as="style">
+    </head>
+
+    <body> <!--BEM-->
+        <header class="header"> <!--Bloque-->
+            <a href="index.html"> 
+                <img class="header__logo" src="img/logo.png" alt="logotipo"> <!--Elemento del bloque-->
+            </a>
+        </header>
+
+        <nav class="nvg"> <!-- poner a*n (n= cantidad de enlaces)--> <!--Bloque-->
+            <a class= "nvg__enlace nvg__enlace--actual" href="index.html" >tienda</a> <!--Elemento del bloque--> <!--Al lado aparece el modificador-->
+            <a class= "nvg__enlace" href="nosotros.html">nosotros</a>
+        </nav>
+
+        <main class="contenedor">
+            <h1>React JS</h1>
+
+            <div class="remeras">
+                <img class="remeras__img" src="img/3.jpg">
+
+                <div class="remeras__contenido">
+                    <p> Is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+                        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled 
+                        it to make a type specimen book. </p>
+                    
+                    <form class="formulario">
+                        <select class="formulario__campo">
+                            <option disabled selected> Seleccionar talla </option>
+                            <option> Chica </option>
+                            <option> Mediana </option>
+                            <option> Grande </option>
+                        </select>
+                        
+                        <input class="formulario__campo" type="number" placeholder="Cantidad" min="1">
+                        
+                        <input class="formulario__submit" class="button" type="submit" value="Agregar al Carrito">
+                    </form>
+                </div>
+            </div>
+
+        </main>
+
+        <footer class="footer">
+                    <p class="footer__txt">Front End Store - Todos los derechos reservados.</p>
+                </footer>
+            </body>
+</html>
+        
+        
+        
+        

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Your Store</title>
+        
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@200&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="preload" href="" as="style">
+    </head>
+
+    <body> <!--BEM-->
+        <header class="header"> <!--Bloque-->
+            <a href="index.html"> 
+                <img class="header__logo" src="img/logo.png" alt="logotipo"> <!--Elemento del bloque-->
+            </a>
+        </header>
+
+        <nav class="nvg"> <!-- poner a*n (n= cantidad de enlaces)--> <!--Bloque-->
+            <a class= "nvg__enlace" href="index.html" >tienda</a> <!--Elemento del bloque--> <!--Al lado aparece el modificador-->
+            <a class= "nvg__enlace nvg__enlace--actual" href="nosotros.html">nosotros</a>
+        </nav>
+
+        <main class="contenedor">
+            <h1> Sobre Nosotros </h1>
+
+            <div class="nos">
+                <div class="nos__contenido">
+                    <p> 
+                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. 
+                    Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, 
+                    and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et 
+                    Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC.
+                    </p>
+                    
+                    <p>
+                    The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also 
+                    reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+                    </p>
+                </div>
+
+                <img class="nos__pic" src="img/nosotros.jpg" alt="imagen nosotros">
+            </div>
+        </main>
+
+        <section class="contenedor xq">
+            <h2 class="xq__h2"> ¿Por qué comprar con nosotros? </h2>
+            
+            <div class="bloques">
+                <div class="bloque">
+                    <img class="bloque__img" src="img/icono_1.png">
+                    <h3 class="bloque__titulo">El mejor precio</h3>
+                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
+                </div>
+                
+                <div class="bloque">
+                    <img class="bloque__img" src="img/icono_2.png">
+                    <h3 class="bloque__titulo">Para Devs</h3>
+                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
+                </div> 
+                
+                <div class="bloque">
+                    <img class="bloque__img" src="img/icono_3.png">
+                    <h3 class="bloque__titulo">Envío gratis</h3>
+                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
+                </div> 
+                
+                <div class="bloque">
+                    <img class="bloque__img" src="img/icono_4.png">
+                    <h3 class="bloque__titulo">la mejor calidad</h3>
+                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
+                </div>  
+                  
+            </div>
+        </section>
+        
+        
+        
+        <footer class="footer">
+            <p class="footer__txt">Front End Store - Todos los derechos reservados.</p>
+        </footer>
+    </body>
+</html>
